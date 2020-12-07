@@ -28,12 +28,21 @@ header {
   font-weight: bold;
   font-size: 24px;
 }
+
+.header__link-logo:hover {
+  color: red;
+}
+
 .header__menu {
   width: 294px;
   display: flex;
   justify-content: space-between;
   list-style-type: none;
   font-size: 16px;
+}
+
+.header__menu a:hover {
+  color: red;
 }
 
 .header__btn {
@@ -45,6 +54,11 @@ header {
   border-radius: 6px;
   border: 1px solid rgba(27, 27, 27, 0.4);
   margin-left: 35px;
+  cursor: pointer;
+}
+
+.header__btn:hover {
+  background-color: green;
 }
 
 .promo {
@@ -104,7 +118,7 @@ header {
 
 .team {
   text-align: center;
-  height: 895px;
+  min-height: 895px;
   padding: 80px 0 120px 0;
 }
 
@@ -152,4 +166,9 @@ footer {
   width: 125px;
   display: flex;
   justify-content: space-between;
+  
+}
+
+.footer__social-icons a:hover {
+  transform: scale(1.1);
 }
