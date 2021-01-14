@@ -1,3 +1,5 @@
+// import '../style/style.scss';
+
 // questions block
 const questions = document.querySelectorAll('.questions__item'),
   questionText = document.querySelectorAll('.questions__text'),
